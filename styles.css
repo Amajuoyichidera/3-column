@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Big Shoulders Display, Lexend Deca;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #F2F2F2;
+    color: white;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 100px;
+}
+.sed {
+    padding: 40px;
+    line-height: 20px;
+    word-spacing: 3px;
+    font-size: 11px;
+    background-color: #E28525;  
+    padding-top: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 200px;
+}
+.sed h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.suv {
+    padding: 40px;
+    line-height: 20px;
+    word-spacing: 3px;
+    font-size: 11px;
+    background-color: #016972;
+    padding-top: 40px;
+    width: 200px;
+}
+.suv h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.lux {
+    padding: 40px;
+    line-height: 20px;
+    word-spacing: 2px;
+    font-size: 11px;
+    background-color: #00403F;
+    padding-top: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 200px;
+}
+.lux h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+p {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+button {
+    padding: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 26px;
+}
+.one {
+    background-color: white;
+    color: #E28525;
+}
+.two {
+    background-color: white;
+    color: #016972;
+}
+.three {
+    background-color: white;
+    color: #00403F;
+}
