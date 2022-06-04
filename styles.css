@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap');;
 
 * {
     margin: 0;
@@ -6,16 +6,16 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Big Shoulders Display, Lexend Deca;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     padding: 10px;
     background-color: #F2F2F2;
     color: white;
+    font-weight: 300;
 }
 .content {
     display: flex;
     justify-content: center;
-    padding: 10px;
     padding-top: 100px;
 }
 .sed {
@@ -84,4 +84,29 @@ button {
 .three {
     background-color: white;
     color: #00403F;
+}
+
+@media screen and (max-width:600px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .lux {
+        border-radius: 0;
+        width: 70vw;
+        font-size: 1.5vh;
+    }
+    .sed {
+        border-radius: 0;
+        width: 70vw;
+        font-size: 1.5vh;
+    }
+    .suv {
+        width: 70vw;
+        font-size: 1.5vh;
+    }
+    body {
+        padding: 10px;
+    }
 }
